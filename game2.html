@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="game2.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissor</h1>
+
+    <div class="showWin hide">
+        <p id="winner">Winner is here</p>
+        <button id="newGame">New game</button>
+    </div>
+
+    <div class="choices">
+        <button class="choice" id="rock">
+            <img src="/HTML/images/Rock.jpeg">
+        </button>
+        <button class="choice" id="paper">
+            <img src="/HTML/images/Paper.jpeg">
+        </button>
+        <button class="choice" id="scissor">
+            <img src="/HTML/images/Scissor.jpeg">
+        </button>
+    </div>
+
+    <div class="scores">
+        <div class="score">
+            <p id="my">0</p>
+            <p>You</p>
+            <p class="ch" id="ych">your choice</p>
+        </div>
+        <div class="score">
+            <p id="comp">0</p>
+            <p>Computer</p>
+            <p class="ch" id="cch">computer choice</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <div class="resetBtn">
+        <button id="reset">Reset</button>
+    </div>
+
+    <script src="game2.js"></script>
+</body>
+</html>
